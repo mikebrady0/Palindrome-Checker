@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Cursive;
+}
+
+body {
+background: rgb(246,245,249);
+background: linear-gradient(132deg, rgba(246,245,249,1) 17%, rgba(217,214,255,1) 66%, rgba(204,201,255,1) 87%, rgba(175,173,208,1) 94%, rgba(209,206,215,1) 99%);
+}
+
+div, h1 {
+  text-align: center;
+}
+
+.main-header {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color:black;
+
+
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  display: felx-grid;
+  position: static;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 0%;
+  background-color: white;
+  border-radius: 15px;
+  color: #1d1137;
+}
+
+div > h3 {
+  padding: 15px;
+}
+
+input {
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 5px; 
+  padding: 3px;
+  border: none;
+  text-decoration: underline;
+}
+
+button {
+  width: 25%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  border-radius: 20px;
+}
+
+.side-note-container {
+  width: 400px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
